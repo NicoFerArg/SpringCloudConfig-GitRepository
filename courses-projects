@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/course_db
+    username: root
+    password: password1
+server:
+  error:
+    include-stacktrace: on_trace_param
