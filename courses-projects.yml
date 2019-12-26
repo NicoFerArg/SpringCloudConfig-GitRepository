@@ -7,8 +7,8 @@ spring:
 eureka:
   client:
     serviceUrl:
-      #defaultZone: http://Eureka-server-env.xmgppsbng2.us-east-2.elasticbeanstalk.com/eureka
-      defaultZone: http://eurekaserver-env-1.dydpn5kspa.us-east-1.elasticbeanstalk.com/eureka
+      defaultZone: http://eureka-server-env-1.tvtpbphqfw.us-east-1.elasticbeanstalk.com/eureka
+      #defaultZone: http://eurekaserver-env-1.dydpn5kspa.us-east-1.elasticbeanstalk.com/eureka
 server:
   error:
     include-stacktrace: on_trace_param
