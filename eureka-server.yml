@@ -6,7 +6,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      #defaultZone: http://Eureka-server-env.xmgppsbng2.us-east-2.elasticbeanstalk.com/eureka
-      defaultZone: http://eurekaserver-env.dydpn5kspa.us-east-1.elasticbeanstalk.com//eureka
+      defaultZone: http://eureka-server-env-1.tvtpbphqfw.us-east-1.elasticbeanstalk.com/eureka
+      #defaultZone: http://eurekaserver-env.dydpn5kspa.us-east-1.elasticbeanstalk.com/eureka
   server:
     waitTimeInMsWhenSyncEmpty: 0    #wait time for subsequent sync
