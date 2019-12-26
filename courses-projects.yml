@@ -1,8 +1,8 @@
 spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/course_db
-    username: root
+    url: jdbc:mysql://coursedb.cq8siaiawpql.us-east-1.rds.amazonaws.com:3306/courses_db
+    username: admin
     password: password1
 eureka:
   client:
